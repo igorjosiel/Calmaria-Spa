@@ -36,17 +36,17 @@
         </nav>
     </header>
 
-    <div class="container">
-        <div class="container__primeiro">
+    <main class="container">
+        <section class="container__primeiro">
             <div class="container__primeiro--texto">
                 <h1>Boas-vindas ao seu refúgio de <span>bem-estar</span></h1>
                 <button class="container__primeiro--texto-botao">Quero relaxar</button>
             </div>
             <img class="container__primeiro--imagem" src="./assets/home-image.png" alt="Mulher recebendo massagem deitada de bruços com a cabeça de lado sobre os braços cruzados e expressão de tranquilidade.">
-        </div>
+        </section>
 
-        <div class="container__secao">
-            <div class="container__secao--conteudo">
+        <section class="container__secao">
+            <article class="container__secao--conteudo">
                 <img class="container__secao--conteudo--img1" src="./assets/espaco-1.png"
                     alt="Piscina coberta com uma claraboia redonda, grande e rodeada com jardinagem.">
                 <div class="container__secao--conteudo--textos">
@@ -55,8 +55,8 @@
                         uma equipe qualificada te ajudam a se livrar do stress com equilíbrio e tranquilidade.</p>
                     <object data="./assets/separador-direita.svg" type="image/svg+xml" tabindex="-1"></object>
                 </div>
-            </div>
-            <div class="container__secao--conteudo">
+            </article>
+            <article class="container__secao--conteudo">
                 <div class="container__secao--conteudo--textos">
                     <h2 class="container__secao--conteudo--textos-titulo">Elevando o seu bem-estar</h2>
                     <p class="container__secao--conteudo--textos-infos">Cada visita é uma jornada. Não importa a sua
@@ -67,56 +67,56 @@
                     <img class="container__secao--conteudo--img2" src="./assets/espaco-2.png" alt="Busto de uma mulher de costas em uma banheira de espumas segurando uma taça e de frente a uma porta de vidro com grandes pedras atrás.">
                     <img class="container__secao--conteudo--img2" src="./assets/espaco-3.png" alt="Ambiente da Calmaria Spa com poltrona, plantas e uma piscina.">
                 </div>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <div class="container container__cards">
-            <div class="container__cards--card">
+        <section class="container container__cards">
+            <article class="container__cards--card">
                 <img src="./assets/icon-massagem.png" alt="">
                 <h3 class="container__cards--card-title">Massagens</h3>
                 <img src="./assets/soft-star.png" alt="">
                 <p class="container__cards--card-texto">Relaxantes, terapêuticas e drenagens. Nossa equipe está pronta
                     para aliviar suas tensões, tratar dores e retenção de líquido com técnicas eficientes.</p>
-            </div>
-            <div class="container__cards--card">
+            </article>
+            <article class="container__cards--card">
                 <img src="./assets/icon-tratamentos.png" alt="">
                 <h3 class="container__cards--card-title">Tratamentos</h3>
                 <img src="./assets/soft-star.png" alt="">
                 <p class="container__cards--card-texto">Sua pele gentilmente tratada com <span lang="en">peelings, liftings</span>,
                     hidratações profundas do corpo e do rosto, além de limpeza facial e banhos revigorantes.</p>
-            </div>
-            <div class="container__cards--card">
+            </article>
+            <article class="container__cards--card">
                 <img src="./assets/icon-dias-especiais.png" alt="">
                 <h3 class="container__cards--card-title" lang="en">Day Spa</h3>
                 <img src="./assets/soft-star.png" alt="">
                 <p class="container__cards--card-texto">Pacotes que vão desde o "Dia revitalizante" com massagens e
                     tratamentos faciais, até o "Dia serenidade" com banhos terapêuticos e meditação.</p>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <div class="container__incricao">
+        <section class="container__incricao">
             <img class="container__incricao--mobile" src="./assets/mandala-superior-mobile.svg" alt="">
             <img class="container__incricao--tablet" src="./assets/mandala-esquerda-tablet.svg" alt="">
             <div class="container__incricao--div">
                 <h4 class="container__incricao--form-titulo">Inscreva-se para ganhar descontos!</h4>
                 <p class="container__incricao--form-texto">Cadastre-se em nossa <span lang="en">newsletter</span> para receber descontos e
                     novidades sobre nossos serviços.</p>
-                <div class="container__incricao--form-input">
-                    <input id="inscricao" type="email">
+                <form action="." class="container__incricao--form-input">
+                    <input id="inscricao" type="email" placeholder="Digite seu email">
                     <button>Inscrever</button>
-                </div>
+                </form>
             </div>
             <img class="container__incricao--mobile" src="./assets/mandala-inferior-mobile.svg" alt="">
             <img class="container__incricao--tablet" src="./assets/mandala-direita-tablet.svg" alt="">
-        </div>
+        </section>
 
-        <div class="container__contato">
+        <section class="container__contato">
             <div class="container__contato--img">
                 <img src="./assets/contato-img-1.png" alt="Homem em uma banheira com produtos de spa no rosto.">
                 <img src="./assets/contato-img-2.png" alt="Mulher em uma banheira olhando horizonte na janela.">
                 <img src="./assets/contato-img-3.png" alt="Mulher em uma banheira com pétalas de rosa, com apenas mãos e pernas aparentes, segurando um livro e com uma bandeija com uvas e chá.">
             </div>
-            <div action="." class="container__contato--form">
+            <form action="." class="container__contato--form">
                 <div class="container__contato--form-conteudo">
                     <h5 class="container__contato--form-conteudo-titulo">Entre em contato</h5>
                     <p class="container__contato--form-conteudo-texto">Reserve seu horário, tire dúvidas ou proponha
@@ -124,36 +124,36 @@
                     </p>
                 </div>
                 <div class="container__contato--inputs">
-                    <label>Nome</label>
-                    <input type="text">
-                    <label>Email</label>
-                    <input type="email">
-                    <label>Telefone</label>
-                    <input type="text">
-                    <div>
-                        <p class="container__contato--inputs--titulo">Prefere contato por:</p>
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" placeholder="Digite seu nome completo" name="nome" required>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="Digite seu email" name="email" required>
+                    <label for="phone">Telefone</label>
+                    <input id="phone" type="text" placeholder="(XX) XXXX-XXXX" name="phone" required>
+                    <fieldset>
+                        <legend class="container__contato--inputs--titulo">Prefere contato por:</legend>
                         <div class="container__contato--inputs--div">
                             <div>
-                                <input type="radio">
-                                <label>Ligação</label>
+                                <input type="radio" id="ligacao" name="ligação">
+                                <label for="ligacao">Ligação</label>
                             </div>
                             <div>
-                                <input type="radio">
-                                <label>WhatsApp</label>
+                                <input type="radio" id="whatsapp" name="whatsapp">
+                                <label for="whatsapp">WhatsApp</label>
                             </div>
                             <div>
-                                <input type="radio">
-                                <label>Email</label>
+                                <input type="radio" id="email-contato" name="email-contato">
+                                <label for="email-contato">Email</label>
                             </div>
                         </div>
-                    </div>
-                    <label>Mensagem</label>
-                    <textarea type="text"></textarea>
+                    </fieldset>
+                    <label id="message">Mensagem</label>
+                    <textarea for="message" name="message" type="text" placeholder="Envie sua mensagem" maxlength="500"></textarea>
                 </div>
                 <button>Enviar</button>
-            </div>
-        </div>
-    </div>
+            </form>
+        </section>
+    </main>
 
     <footer class="rodape">
         <address>
