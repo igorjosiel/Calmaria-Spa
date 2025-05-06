@@ -8,9 +8,6 @@
 
 A Calmaria Spa é uma empresa de bem estar e saúde. Nesse momento, temos o código inicial da sua landing page, onde vamos encontrar pontos de melhoria para tornar o projeto acessível a todas as pessoas usuárias.
 
-<img src="./assets/screenshot.png" alt="Calmaria Spa" width="50%">
-
-
 ## 🔨 Funcionalidades do projeto
 
 Nesse primeiro momento, nós temos a página que foi idealizada como a primeira entrega do time de desenvolvimento.
