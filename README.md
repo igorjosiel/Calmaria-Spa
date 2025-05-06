@@ -1,11 +1,12 @@
-![Calmaria Spa](./assets/thumbnail.png)
+![image](https://github.com/user-attachments/assets/9a710551-c962-4617-90c5-7cc32beaed46)
+![image](https://github.com/user-attachments/assets/2643d5be-69d1-4b36-b1fd-b68f47a4f21b)
+![image](https://github.com/user-attachments/assets/9ff28169-3c82-4681-b473-8db7b20bb2e0)
+![image](https://github.com/user-attachments/assets/68ce7f34-1549-4179-9d0f-26f25944b19d)
+![image](https://github.com/user-attachments/assets/2cf0f3fb-ce13-4821-ac61-6a2264e36b94)
 
 # Calmaria Spa
 
-A Calmaria Spa é um empresa de bem estar e saúde. Nesse momento, temos o código inicial da sua landing page, onde vamos encontrar pontos de melhoria para tornar o projeto acessível a todas as pessoas usuárias.
-
-<img src="./assets/screenshot.png" alt="Calmaria Spa" width="50%">
-
+A Calmaria Spa é uma empresa de bem estar e saúde. Nesse momento, temos o código inicial da sua landing page, onde vamos encontrar pontos de melhoria para tornar o projeto acessível a todas as pessoas usuárias.
 
 ## 🔨 Funcionalidades do projeto
 
@@ -36,4 +37,4 @@ Depois, abra o projeto no seu navegador.
 ## 📚 Mais informações do curso
 
 O Calmaria Spa é uma empresa fictícia utilizada nesse curso da Alura.
-A ideia principal desse curso é evoluir ainda mais os conhecimentos em Acessibilidade Web com foco em CSS. 
+A ideia principal desse curso é evoluir ainda mais os conhecimentos em Acessibilidade Web com foco em CSS, HTML e Javascript.
