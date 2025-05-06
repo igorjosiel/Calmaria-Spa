@@ -1,4 +1,4 @@
-![Calmaria Spa](./assets/thumbnail.png)
+![image](https://github.com/user-attachments/assets/9a710551-c962-4617-90c5-7cc32beaed46)
 
 # Calmaria Spa
 
